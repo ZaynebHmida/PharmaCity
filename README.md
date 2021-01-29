@@ -24,19 +24,19 @@ Diese Anwendung zielt im Wesentlichen darauf ab, die Komplexität der Verarbeitu
 Front:
 
 
-![1](https://user-images.githubusercontent.com/47888237/106334156-5f5ef680-628a-11eb-9934-c45bac87a8ea.PNG)
-![2](https://user-images.githubusercontent.com/47888237/106334232-887f8700-628a-11eb-86fc-8d9b3a0fc72d.PNG)
-![3](https://user-images.githubusercontent.com/47888237/106334342-ba90e900-628a-11eb-95be-72addb5a64aa.PNG)
-![4](https://user-images.githubusercontent.com/47888237/106334378-cb415f00-628a-11eb-8816-76c122430b12.PNG)
-![5](https://user-images.githubusercontent.com/47888237/106334422-e6ac6a00-628a-11eb-90c7-a2ca370b78f2.PNG)
-![6](https://user-images.githubusercontent.com/47888237/106334459-faf06700-628a-11eb-9a17-00a0b60ade72.PNG)
-![7](https://user-images.githubusercontent.com/47888237/106334501-13608180-628b-11eb-8040-dc75c3b07cde.PNG)
-![8](https://user-images.githubusercontent.com/47888237/106334533-296e4200-628b-11eb-9fea-74eb4215ac7a.PNG)
-![9](https://user-images.githubusercontent.com/47888237/106334566-39862180-628b-11eb-80eb-364323ccab43.PNG)
-![10](https://user-images.githubusercontent.com/47888237/106334601-4f93e200-628b-11eb-9e40-f435d362ced4.PNG)
-![11](https://user-images.githubusercontent.com/47888237/106334649-64707580-628b-11eb-9d10-0d538b2e598b.PNG)
-![12](https://user-images.githubusercontent.com/47888237/106334680-77834580-628b-11eb-929a-76387fc52c6b.PNG)
-![14](https://user-images.githubusercontent.com/47888237/106334718-88cc5200-628b-11eb-8e0f-62ffe86bb82f.PNG)
+![1](https://user-images.githubusercontent.com/47888237/106335155-89191d00-628c-11eb-9f08-81226ced11a7.PNG)
+![2](https://user-images.githubusercontent.com/47888237/106335158-8ae2e080-628c-11eb-9d3e-154ccdf47256.PNG)
+![3](https://user-images.githubusercontent.com/47888237/106335161-8c140d80-628c-11eb-85ba-0017bbee698e.PNG)
+![4](https://user-images.githubusercontent.com/47888237/106335162-8caca400-628c-11eb-9833-73e146060243.PNG)
+![5](https://user-images.githubusercontent.com/47888237/106335163-8e766780-628c-11eb-8641-7aadd3793ff3.PNG)
+![6](https://user-images.githubusercontent.com/47888237/106335167-8f0efe00-628c-11eb-942d-17d6dde65946.PNG)
+![7](https://user-images.githubusercontent.com/47888237/106335170-90402b00-628c-11eb-9413-027e1dc61f81.PNG)
+![8](https://user-images.githubusercontent.com/47888237/106335180-9209ee80-628c-11eb-81f5-d60fa7df56e8.PNG)
+![9](https://user-images.githubusercontent.com/47888237/106335184-946c4880-628c-11eb-8581-cd7e3bf41883.PNG)
+![10](https://user-images.githubusercontent.com/47888237/106335189-96360c00-628c-11eb-85c3-f2611b507aea.PNG)
+![11](https://user-images.githubusercontent.com/47888237/106335193-97673900-628c-11eb-8146-9447c19185eb.PNG)
+![12](https://user-images.githubusercontent.com/47888237/106335195-98986600-628c-11eb-928f-d985a8963245.PNG)
+![14](https://user-images.githubusercontent.com/47888237/106335197-99c99300-628c-11eb-8adb-0fc62add5b11.PNG)
 
 
 
