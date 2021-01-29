@@ -1,4 +1,7 @@
 
+![1](https://user-images.githubusercontent.com/47888237/106324833-1bfc8c00-627a-11eb-87ca-19cc21938a39.PNG)
+
+
 Francais:
 
 Il s'agit d'une application mobile interactive, fiable, conviviale et facile à intégrer dans l'environnement de travail des pharmacies assurant la gestion de ces dernières et de suivre les ordonnances en prenant en considération le type des médicaments sortis à chaque ordonnance et l'état de stock des médicaments, en essayant de trouver les solutions aux problèmes rencontrés lors de l'exécution.
