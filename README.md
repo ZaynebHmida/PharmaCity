@@ -22,10 +22,11 @@ Es handelt sich um eine interaktive mobile Anwendung, die zuverlässig, benutzer
 Diese Anwendung zielt im Wesentlichen darauf ab, die Komplexität der Verarbeitungsvorgänge sowie den Zeitverlust während der Lagerverwaltung insbesondere zu reduzieren. Ziel unseres Projekts "Online Pharmacy Android Application" ist es zunächst, das Leben des Kunden zu vereinfachen, der auf die verschiedenen von einer Apotheke angebotenen Dienste zugreifen kann, ohne zu einem gehen zu müssen.
 
 Front:
+
+
 ![1](https://user-images.githubusercontent.com/47888237/106325442-20757480-627b-11eb-907d-8182b50e405c.PNG)
 ![2](https://user-images.githubusercontent.com/47888237/106325475-2bc8a000-627b-11eb-9c51-460928b27fdf.PNG)
 ![3](https://user-images.githubusercontent.com/47888237/106325517-3b47e900-627b-11eb-8efc-b723e866b222.PNG)
-![4](https://user-images.githubusercontent.com/47888237/106325537-43078d80-627b-11eb-8c34-1abd2f6844a3.PNG)
 ![5](https://user-images.githubusercontent.com/47888237/106325559-4bf85f00-627b-11eb-8b79-90ca2e3a14e6.PNG)
 ![6](https://user-images.githubusercontent.com/47888237/106325580-5286d680-627b-11eb-8bb4-2a54586398fb.PNG)
 ![7](https://user-images.githubusercontent.com/47888237/106325612-5e729880-627b-11eb-9b65-544f3d578674.PNG)
@@ -39,6 +40,8 @@ Front:
 
 
 Back:
+
+
 ![1](https://user-images.githubusercontent.com/47888237/106325220-c379be80-627a-11eb-8939-b8fafe947093.PNG)
 ![2](https://user-images.githubusercontent.com/47888237/106325302-e4421400-627a-11eb-8419-129d10731cd5.PNG)
 ![3](https://user-images.githubusercontent.com/47888237/106325351-f4f28a00-627a-11eb-9da1-e15cbbb44365.PNG)
