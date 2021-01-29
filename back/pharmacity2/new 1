@@ -1,0 +1,317 @@
+<?php
+include 'config.php';
+                        $id=$_GET['id'];
+
+?><!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+       
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/vendor.css">
+		
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" id="camera-css"  href="css/camera.css" type="text/css" media="all">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css" />
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <!-- Theme initialization -->
+        <script>
+            var themeSettings = (localStorage.getItem('themeSettings')) ? JSON.parse(localStorage.getItem('themeSettings')) :
+            {};
+            var themeName = themeSettings.themeName || '';
+            if (themeName)
+            {
+                document.write('<link rel="stylesheet" id="theme-style" href="css/app-' + themeName + '.css">');
+            }
+            else
+            {
+                document.write('<link rel="stylesheet" id="theme-style" href="css/app.css">');
+            }
+        </script>
+    </head>
+
+    <body>
+       
+                <header class="header">
+                    <div class="header-block header-block-collapse hidden-lg-up"> <button class="collapse-btn" id="sidebar-collapse-btn">
+    			<i class="fa fa-bars"></i>
+    		</button> </div>
+                    <div class="header-block header-block-search hidden-sm-down">
+                        <form role="search">
+						
+						          <div class="left"><a ></br> </br> </br></br></br></br></br></br></br><img src="img/logo.jpg" alt="" style="float:left;margin:0 10px 0 250px;" border="3" /></a></div>   
+                            <div class="input-container"> <i  class="logo"></i></br> </br></br><a href="index.html"></a>
+                                <div class="underline"></div>
+								
+								</br> </br> </br></br></br></br> </br></br></br></br> 
+								
+								
+								
+							
+								
+								
+								<!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+   
+            
+           <p><h2><p><font color="fuchsia">Liste des Messages</font></p> </h2></p>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+          
+         
+       
+              
+					
+  <body class="sidebar-mini fixed">
+    <div class="wrapper">
+      
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Side-Nav-->
+      
+         
+           
+          </div> 
+        </div>
+        
+           
+			
+				<table border="2">
+               <thead>
+   <tr>
+      <th>Date</th>
+      <th>idCl</th>
+      <th>sujet</th>
+	  <th>message</th>
+	     <th>actions</th>
+
+   </tr>
+                 
+                </thead>
+                <tbody>
+				<?php
+$sql="select * from message where er='ca'";
+$msgs=$con->query($sql);
+while($msg=$msgs->fetch_assoc()){
+                 echo'<tr class="info">
+                        <td>'.$msg['date'].'</td>
+
+                    <td>'.$msg['idCl'].'</td>
+                    <td>'.$msg['sujet'].'</td>
+                    <td>'.$msg['message'].'</td>
+
+
+                    <td><a href="repondre.php?id='.$msg['id_msg'].'"><button class="btn btn-warning icon-btn" type="button"><i class="fa fa-fw fa-lg fa-check-circle"></i>Repondre</button></a>
+					 &nbsp;&nbsp;<a class="btn btn-danger icon-btn" href="suppr_msg.php?id='.$msg['idCl'].'"><i class="fa fa-fw fa-lg fa-times-circle"></i>Supprimer</a> <br><br>
+					</td>
+                  </tr>';
+} ?>
+                </tbody>
+              </table>
+			  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+			
+                            </div>
+                        </form>
+                    </div>
+                    
+                    
+			  </header>
+                            
+                <aside class="sidebar">
+                    <div class="sidebar-container">
+                        <div class="sidebar-header">
+                            <div class="brand">
+                                <div class="logo"> <span class="l l1"></span> <span class="l l2"></span> <span class="l l3"></span> <span class="l l4"></span> <span class="l l5"></span> </div> Pharmacien </div>
+                        </div>
+                        <nav class="menu">
+                            <ul class="nav metismenu" id="sidebar-menu">
+                                <li class="active">
+                                    <a href="index.html"> <i class="fa fa-home"></i> Acceuil</a>
+                                </li>
+                                <li>
+                                    <a href=""> <i class="fa fa-th-large"></i> Gestion des administrateurs <i class="fa arrow"></i> </a>
+                                    <ul>
+                                        <li> <a href="ajout_administrateur.html">
+    								Ajouter admin
+    							</a> </li>
+                                        <li> <a href="item-editor.html">
+    							Liste des admins
+    							</a> </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href=""> <i class="fa fa-bar-chart"></i>Gestion des Médicaments <i class="fa arrow"></i> </a>
+                                    <ul>
+                                        <li> <a href="charts-flot.html">
+    								Ajouter médicament
+    							</a> </li>
+                                        <li> <a href="charts-morris.html">
+    								Liste des médicaments
+    							</a> </li>
+                                    </ul>
+                                </li>
+								
+								
+								<li>
+                                    <a href=""> <i class="fa fa-th-large"></i> Gestion des Diagnostics <i class="fa arrow"></i> </a>
+                                    <ul>
+                                        <li> <a href="items-list.html">
+    								Aiouter Diagnostic
+    							</a> </li>
+                                        <li> <a href="item-editor.html">
+    							Liste des Diagnostics
+    							</a> </li>
+                                    </ul>
+                                </li>
+								
+								
+								
+								
+								
+								<li>
+                                    <a href=""> <i class="fa fa-th-large"></i> Gestion des Clients <i class="fa arrow"></i> </a>
+                                    <ul>
+                                   
+                                        <li> <a href="item-editor.html">
+    							Liste des Clients
+    							</a> </li>
+                                    </ul>
+                                </li>
+								
+								
+								
+								
+								
+								
+								<li>
+                                    <a href=""> <i class="fa fa-th-large"></i> Gestion des Commandes <i class="fa arrow"></i> </a>
+                                    <ul>
+                                   
+                                        <li> <a href="item-editor.html">
+    							Liste des Commandes
+    							</a> </li>
+                                    </ul>
+                                </li>
+								
+								
+								
+								
+								
+								
+								<li>
+                                    <a href=""> <i class="fa fa-th-large"></i> Gestion des Messages <i class="fa arrow"></i> </a>
+                                    <ul>
+                                   
+                                        <li> <a href="item-editor.html">
+    							Liste des Messages
+    							</a> </li>
+                                    </ul>
+                                </li>
+								
+								
+								
+								
+                               
+
+									
+									<body style="background: url(img/1.jpg) no-repeat center center fixed; -webkit-background-size: cover;
+                                    -moz-background-size: cover;
+                                    -o-background-size: cover;
+                                    background-size: cover;">
+
+									
+									
+                                    
+                                
+                                          
+        <!-- Reference block for JS -->
+        <div class="ref" id="ref">
+            <div class="color-primary"></div>
+            <div class="chart">
+                <div class="color-primary"></div>
+                <div class="color-secondary"></div>
+            </div>
+        </div>
+		
+		
+		 <!--//page_container-->
+    
+     
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	
+	
+	
+	
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/essential-plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/pace.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){	
+			//Slider
+			$('#camera_wrap_1').camera();
+			
+			//Featured works & latest posts
+			$('#mycarousel, #mycarousel2, #newscarousel').jcarousel();													
+		});		
+	</script>
+        <script>
+            (function(i, s, o, g, r, a, m)
+            {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function()
+                {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-80463319-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script src="js/vendor.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>

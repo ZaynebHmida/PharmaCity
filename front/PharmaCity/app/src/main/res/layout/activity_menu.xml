@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.admin.pharmacity.Menu"
+    android:weightSum="1"
+    android:background="@drawable/aaaa">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/user"
+            android:id="@+id/button5"
+            android:layout_row="0"
+            android:layout_column="10"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profil"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_row="1"
+            android:layout_column="10"
+            android:id="@+id/textView37"
+            android:layout_gravity="center|top" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="315dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/search_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button6"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/pill_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button7"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Recherche"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center|top"
+            android:id="@+id/textView38" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Diagnostics"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:id="@+id/textView39" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="321dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/panier_48"
+            android:id="@+id/button19"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/favorite_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button8"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/remind_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button17"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Mon Panier"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/textView13"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Favoris"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/textView45"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Notifications"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:id="@+id/textView42" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:layout_weight="0.20">
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/send_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button9"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="right" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/statistics_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button12"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="right" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Contacter"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:id="@+id/textView40"
+            android:layout_gravity="left|center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Statistiques"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/textView44"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="right|center" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/info_48"
+            android:textColor="#FF000000"
+            android:id="@+id/button10"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="A propos"
+            android:textColor="#FF000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/textView46"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_gravity="left|center" />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/ic_perm_identity"
+        android:title="Mon Profil" />
+    <item
+        android:id="@+id/recherce"
+        android:icon="@drawable/ic_search_2x"
+        android:title="Rechercher médicament" />
+    <item
+        android:id="@+id/symptome"
+        android:icon="@drawable/pill_48"
+        android:title="Diagnostics" />
+    <item
+        android:id="@+id/panier"
+        android:icon="@drawable/panier_48"
+        android:title="Mon panier" />
+    <item
+        android:id="@+id/favoris"
+        android:icon="@drawable/ic_favorite_border"
+        android:title="Mes Favoris" />
+    <item
+        android:id="@+id/notif"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications" />
+
+
+
+
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_local_phone"
+        android:title="Contacter Pharmacien" />
+
+
+
+    <item
+        android:id="@+id/stat"
+        android:icon="@drawable/statistics_48"
+        android:title="Statistiques" />
+    <item
+        android:id="@+id/propos"
+        android:icon="@drawable/ic_info_outline"
+        android:title="À propos PharmaCity" />
+
+    <group android:id="@+id/menu_help_group">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_power_settings_new"
+            android:title="Déconnexion" />
+    </group>
+</menu>

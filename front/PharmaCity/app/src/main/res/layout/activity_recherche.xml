@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.pharmacity.Recherche"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:background="@drawable/rech">
+
+    <ImageButton
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:id="@+id/imageButton6"
+        android:onClick="openAndroidBottomMenu"
+        android:src="@drawable/ic_menu"
+        android:background="#7FDD4C" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/EditText4"
+        android:paddingTop="35dp"
+        android:hint="Rechercher ici !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:minWidth="350dp"
+        android:drawableLeft="@drawable/ic_search_2x"
+        android:drawableStart="@drawable/ic_search_2x"
+        android:textCursorDrawable="@null" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

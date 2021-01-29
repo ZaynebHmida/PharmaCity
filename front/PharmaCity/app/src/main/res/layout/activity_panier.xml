@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.admin.pharmacity.Panier"
+    android:background="@drawable/panier"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAndroidBottomMenu"
+        android:id="@+id/imageButton11"
+        android:src="@drawable/ic_menu"
+        android:background="#7FDD4C" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Prix total en Dinar tunisien :"
+        android:id="@+id/textView35"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView51"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:id="@+id/listView5"
+        android:layout_weight="0.82" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp">
+
+        <Button
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#7f807f"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Ajouter"
+            android:id="@+id/button22"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#7f807f"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="actualiser"
+            android:id="@+id/button23"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#7f807f"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Commander"
+            android:id="@+id/button21"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#7f807f"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Supprimer tous"
+            android:id="@+id/button18"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+    </GridLayout>
+
+</LinearLayout>
