@@ -4,7 +4,7 @@
 
 
 
-Francais:
+Français:
 
 Il s'agit d'une application mobile interactive, fiable, conviviale et facile à intégrer dans l'environnement de travail des pharmacies assurant la gestion de ces dernières et de suivre les ordonnances en prenant en considération le type des médicaments sortis à chaque ordonnance et l'état de stock des médicaments, en essayant de trouver les solutions aux problèmes rencontrés lors de l'exécution.
 Cette application vise essentiellement à diminuer la complexité des traitements ainsi que le temps perdu lors de la gestion de stock, en particulier. L’objectif de notre projet « application Android de pharmacie en ligne » est de simplifier en premier lieu la vie du client qui devient capable d’accéder aux différents services offerts par une pharmacie sans devoir aller à une.
